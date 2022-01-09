@@ -5,7 +5,7 @@ module.exports = {
     es2021: true,
   },
   plugins: ['react', 'react-hooks', 'prettier'],
-  extends: ['plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
